@@ -1,4 +1,4 @@
-package com.secureauth.secure_access_api.main.infra.exception.security;
+package com.secureauth.secure_access_api.main.infra.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

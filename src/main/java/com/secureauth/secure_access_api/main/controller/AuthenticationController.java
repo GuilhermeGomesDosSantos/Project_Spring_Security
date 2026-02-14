@@ -2,8 +2,8 @@ package com.secureauth.secure_access_api.main.controller;
 
 import com.secureauth.secure_access_api.main.domain.user.DTOauthentication;
 import com.secureauth.secure_access_api.main.domain.user.User;
-import com.secureauth.secure_access_api.main.infra.exception.security.DTOtokenJWT;
-import com.secureauth.secure_access_api.main.infra.exception.security.tokenService;
+import com.secureauth.secure_access_api.main.infra.security.DTOtokenJWT;
+import com.secureauth.secure_access_api.main.infra.security.tokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
